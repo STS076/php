@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Dancing+Script:wght@500&family=Montserrat:wght@300;500;600&family=Open+Sans:wght@400;600;800&family=Poppins:wght@300;600&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+
+.pink {
+    background-color: rgba(255, 192, 203, 0.489);
+}
+
+header {
+    background: rgba(0, 0, 0, 0) url("/public/img/imageBackground.webp");
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.photoChaussures {
+    height: 25rem;
+    width: 100%;
+}
+
+
+main {
+    background: rgba(0, 0, 0, 0) url("/public/img/background-spiral.png");
+    /* height: 10rem; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+footer {
+    background-color: #F2F1EB;
+}
+
+h1{
+    font-family: 'Dancing Script';
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+}
