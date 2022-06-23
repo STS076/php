@@ -110,11 +110,11 @@ $langue = "au";
             ?>
 
             <!-- fait tout disparaitre à enlever -->
-                <?php
+                <!-- <?php
                 if ($key == $limit){
                     exit; 
                 }
-                ?>
+                ?> -->
                 <!-- fait tout disparaitre ????? why -->
 
                 <div class="card mb-3 col-lg-4 col-11 mx-2 my-5 p-0 secondary">
@@ -130,7 +130,6 @@ $langue = "au";
                                 <p class="card-title text-center fw-bold"><?= $value["name"] ?></p>
                                 <p class="text-light text-decoration-none m-1">bounty : <?= $value["price"] ?> credits</p>
                                 <a class="text-decoration-none info m-1" href="pageDeux.php?cible=<?= $key ?>">+ d'info</a>
-
                             </div>
                         </div>
                     </div>

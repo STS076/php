@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins';
+}
+
+.background {
+    background: rgba(0, 0, 0, 0) url("../public/img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.coeur {
+    width: 3rem;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Gochi Hand';
+    letter-spacing: 0.3rem;
+}
+
+.bouton {
+    background-color: beige;
+}
+
+.bienvenue {
+    background-color: rgba(255, 228, 196, 0.498);
+}
+
+.recherche {
+    background-color: rgba(255, 228, 196, 0.498);
+}
+
+.main {
+    background: rgba(0, 0, 0, 0) url("../public/img/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.sophie {
+    margin-left: 25%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toussaint {
+    margin-left: 9%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.carte{
+    background-color: rgba(255, 228, 196, 0.616);
+}
+
+.image{
+    width: 15rem;
+    height: auto;
+}
+
+.top{
+    background-color: rgba(255, 228, 196, 0.616);
+}
+
+.picture{
+    width: 4rem;
+    height: auto;
+}
+
+.table{
+    margin-left: 10%;
+    width: 80%;
+}
