@@ -23,19 +23,27 @@
 
             <div class="toussaint my-3 py-5">
                 <div class="row justify-content-evenly">
+
                     <?php
                     foreach ($profile as $key => $value) {
+
+                        // on va trier en fonction du genre 
+                        if ($search != 'lesDeux' && $value["gender"] != $search) {
+                            continue;
+                            // si contraire de ce qu'on recherche, alors passe le chemin
+                        }
+
                     ?>
                         <div class="card col-lg-3 col-11 p-0 carte m-3">
                             <div class="text-center">
                                 <img src="/public/avatars/<?= $value["picture"] ?>.jpg" class="rounded-circle image card-img-top pt-2" alt="photo <?= $value["name"] ?>">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title text-center fw-bold"><?= $value["name"] ?></h5>
-                                <p class="card-text"></p>
+                                <p class="fs-5 card-title text-center fw-bold"><?= $value["name"] ?></p>
+                                <p class="card-text text-center"><?= $value["gender"] ?></p>
                                 <div class="text-center">
                                     <button type="button" class="btn bouton" data-bs-toggle="modal" data-bs-target="#<?= $value["picture"] ?>">
-                                        Plus d'info
+                                        Plus d'infos
                                     </button>
                                 </div>
                             </div>
@@ -91,7 +99,7 @@
                                     <td> <img src="/public/avatars/<?= $value["picture"] ?>.jpg" class="picture rounded-circle " alt="photo <?= $value["name"] ?>"></td>
                                     <td class="fw-bold "><?= $value["name"] ?></td>
                                     <td><button type="button" class="btn bouton" data-bs-toggle="modal" data-bs-target="#<?= $value["picture"] ?>">
-                                            Plus d'info
+                                            Plus d'infos
                                         </button></td>
                                 </tr>
                             <?php }
@@ -116,4 +124,5 @@
 
 
 </body>
+
 </html>

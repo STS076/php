@@ -10,12 +10,12 @@ body {
     background-blend-mode: darken;
 }
 
-.coeur {
+.coeur{
     width: 3rem;
     height: auto;
 }
 
-h1 {
+h1{
     font-family: 'Gochi Hand';
     letter-spacing: 0.3rem;
 }
@@ -62,25 +62,45 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.carte{
+
+.blanc {
+    margin-left: 9%;
+    width: 80%;
+    background: rgba(255, 228, 196, 0.616);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.carte {
     background-color: rgba(255, 228, 196, 0.616);
 }
 
-.image{
+.image {
     width: 15rem;
     height: auto;
 }
 
-.top{
+.top {
     background-color: rgba(255, 228, 196, 0.616);
 }
 
-.picture{
+.picture {
     width: 4rem;
     height: auto;
 }
 
-.table{
+.table {
     margin-left: 10%;
     width: 80%;
+}
+
+.main2 {
+    background: rgba(0, 0, 0, 0) url("../public/img/hearts.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }

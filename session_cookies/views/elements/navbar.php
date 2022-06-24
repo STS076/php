@@ -27,7 +27,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  fw-bold  active titre me-3" href="settings.php">SETTINGS</a>
+                        <a class="nav-link  fw-bold  active titre me-5" href="settings.php">SETTINGS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link  fw-bold  active titre" href="#" tabindex="-1" aria-disabled="true">QUI
