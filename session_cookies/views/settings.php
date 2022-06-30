@@ -44,8 +44,21 @@
             </div>
             <div class="row text-center">
                 <div class="col-lg-12 col-12 my-3">
-                    <span class="text-dark">Notre fond d'écran spécial Saint Valentin :</span>
-                    <input type="checkbox" id="checkbox" name="background" value="background">
+
+                    <?php
+                    if (empty($_COOKIE["background"]) && $style == "main") {
+                    ?>
+                        <span class="text-dark">Notre fond d'écran spécial saint Valentin :</span>
+                        <input type="checkbox" id="checkbox" name="main" value="background">
+                    <?php
+                    } else if (isset($_COOKIE["background"])) {
+                    ?>
+                        <span class="text-dark">Revenir au fond d'écran normal : </span>
+                        <input type="checkbox" id="checkbox" name="main2" value="background">
+
+                    <?php } ?>
+
+
                 </div>
             </div>
             <div class="my-3 text-center">

@@ -15,8 +15,8 @@ if(isset($_COOKIE['preference'])){
     $search = 'lesDeux';
 }; 
 
-// if(isset($_COOKIE['background'])){
-//     $fondEcran = $_COOKIE['background'];
-// } else{
-//     $fondEcran = 'main';
-// }
+if(isset($_COOKIE['background'])){
+    $style = $_COOKIE['background'];
+} else{
+    $style = 'main';
+}

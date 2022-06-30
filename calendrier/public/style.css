@@ -1,0 +1,13 @@
+body {
+    font-family: 'Poppins';
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+}
+/* grid qui va partager en 7 la grille */
+
+.case{
+    height: 4rem;
+};

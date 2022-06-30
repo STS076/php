@@ -1,4 +1,6 @@
-<?php require_once "../data/fakeProfile.php"; ?>
+<?php require_once "../data/fakeProfile.php"; 
+$style = "main";
+?>
 
 <?php require_once "../controller/rencontres-controller.php" ?>
 

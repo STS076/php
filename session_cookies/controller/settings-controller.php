@@ -12,10 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     setcookie('affichage', $_POST['affichage'], time() + 3600);
 
     // il faut controller si la checkbox est cochée
-    if(isset($_POST['background'])){
-        setcookie('background', $_POST['background'], time() + 3600);
+    if(isset($_POST['main'])){
+        setcookie('main', $_POST['main'], time() + 3600);
     } else{
-        setcookie('background', '', time() -3600); 
+        setcookie('main', '', time() -3600); 
     }
     header('Location: settings.php');
 };

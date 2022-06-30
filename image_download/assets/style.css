@@ -1,0 +1,26 @@
+#imgPreview {
+    width: 400px;
+    max-height: 400px;
+    display: block;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.bouton{
+    background-color: rgb(231, 231, 231);
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.2) url("../img/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.charger{
+    background-color:rgba(255, 228, 196, 0.447);
+}
